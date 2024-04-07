@@ -8,7 +8,7 @@
     outline: none;
 }
 body{
-    background-color: #00f2f9;
+ background-color:#f4f2f9 ;
 }
 @font-face {
      src: url('images/google-font/molle.regular.woff') format('woff');
@@ -40,6 +40,7 @@ body{
      transition: 0.5s;
      font-weight: 100;
      transition: 0.5s;
+    border-radius: 5px;
      
  }
  .rahmat .head  {
@@ -48,18 +49,18 @@ body{
     text-align: center;
     background-color: #042;
  }
- li:hover{ 
-     background-color: rgb(8, 85, 8);
+ .rahmat li:hover{ 
+     background-color: orange;
  }
  .najat li{
-     background-color: #9829d0;
+     background-color: rgb(18, 128, 16);
  }
  .najat li:hover{
-     background-color:green;
+     background-color: orange;
  }
  .magfirat  li{
     
-     background-color: #3803ac;
+     background-color: #0d0420;
 
  }
   
@@ -73,18 +74,20 @@ body{
     margin-top: 10px;
     margin-bottom: 30px;
     padding: 15px 0;
-   
+	  border-radius: 5px;
  }
  .ramadan .icon{
     width: 80%;
     margin-left: 10%;
     display: flex;
     justify-content: space-between;
+  
    
-  }
+    
+ }
   .icon-parent{
       box-shadow: 1px 1px 1px 1px; 
-       padding: 10px 0; 
+      padding: 10px 0;
       color: #fff;
 
   }
@@ -105,17 +108,129 @@ body{
    background-color: #556;
    transform: rotate(360deg);
  }
- 
+/* clock code here */
 
+.clock{
+	margin: auto;
+    margin: auto;
 
+    
+}
+ #container{
+   width: 350px;
+    text-align: center;
+    /* background-color: #161F32; */
+    background-color:#4d204c;
+   color: #fff;
+   margin: auto;
+   margin-top: 10px;
+   padding-top: 10px;
+   box-shadow: 5px;
+   border-radius: 5px;
+	 position: relative;
+   
+    /* font-family: molle; */
+  }
+  h1{
 
+     font-family: "Codystar", sans-serif;
+    position: absolute;
+    top: 15px;
+    /*left: 23%;*/
+transform: translate(35%);
+	  
+  }
+  #timer{
+    display: flex;
+  }
+  #container div{
+    background-color:#2d032b;
+    text-align: center;
+    border-radius: 5px;
+    
+   }
+   #container span{
+    background-color:coral;
+     margin-left: 5px; 
+     /* box-sizing: border-box;  */
+     width: 10px;
+    font-size: 40px;
+     color: #fff; 
+       text-align: center;
+      border-radius: 5px;
+      padding:3px 3px;
+      box-shadow: inset 2px 3px 5px;
+    
+     
+  
+    }
+  
+   #container .secoud-span{
+    color: #fff;
+    background-color: crimson;
+    display: block;
+    font-size: 16px;
+    margin-top: 4px;
+     width: 80px;
+     }
+ .jui {
+        background-color: #4d204c;
+       display: grid;
+        grid-template-columns: repeat(4,1fr);
+    }
+     .jui code{
+        font-family: molle;
+        font-size: 18px;
+        opacity: 0.03;
+        color:#ffffffb8;
+      
 
-
-
-
-
-
- 
-
-
-
+    }
+  .btn-head{
+        background-color: #2d032b;
+         color: gray;
+        width: 350px;
+        margin: auto;
+        margin-top: 10px;
+        padding: 5px 0;
+        border-radius: 5px;
+    }
+    .change-color{
+       text-align: center;
+       margin-bottom: 30px;
+       margin-top: 5px;
+       
+    }
+    .change-color button{
+         color: #d1cece; 
+        border-radius: 5px;
+        width: 42px;
+        margin-top: 3px;
+        border: none;
+        cursor: pointer;
+        
+    }
+    .change-color button:last-child{
+        /* color: #000; */
+        color: gray;
+    }
+    .red{
+       background-color: red;
+    }
+    .black{
+        background-color: black;
+    }
+    .green{
+        background-color: green;
+    }
+    .yellow{
+        background-color: yellow;
+    }
+    .violet{
+        background-color: violet;
+    }
+    .white{
+        background-color: #fff;
+        color: rgb(19, 19, 19);
+    }
+   
