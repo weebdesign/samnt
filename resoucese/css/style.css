@@ -110,7 +110,7 @@ body{
  }
 /* clock code here */
 .jui{
-	background:("images/eid-pic.jpg");
+	background:url("images/eid-pic.jpg");
 	background-repeat:no-repeat;
 	background-size:100%;
 	background-position:top;
