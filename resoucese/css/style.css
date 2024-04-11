@@ -133,7 +133,6 @@ body{
    color: #fff;
    margin: auto;
    margin-top: 10px;
-   padding-top: 10px;
    box-shadow: 5px;
    border-radius: 5px;
 	 position: relative;
@@ -147,6 +146,7 @@ body{
     top: 15px;
     /*left: 23%;*/
 transform: translate(35%);
+	  visibility:hidden;
 	  
   }
   #timer{
