@@ -134,11 +134,12 @@ body{
   h1{
 
      font-family: "Codystar", sans-serif;
+	  color:orange;
     position: absolute;
     top: 15px;
     /*left: 23%;*/
 transform: translate(35%);
-	  visibility:hidden;
+	  
 	  
   }
   #timer{
